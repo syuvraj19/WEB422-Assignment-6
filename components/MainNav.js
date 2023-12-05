@@ -39,7 +39,7 @@ export default function MainNav() {
         expand="lg"
         expanded={isExpanded}>
         <Container>
-          <Navbar.Brand>NGUYEN DUY HOANG</Navbar.Brand>
+          <Navbar.Brand>DAI ANH BUI</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => {
