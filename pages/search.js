@@ -5,6 +5,7 @@ import { searchHistoryAtom } from "@/store";
 import { useAtom } from "jotai";
 import { addToHistory } from "@/lib/userData";
 
+
 export default function Search() {
   const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
   const {
