@@ -4,7 +4,6 @@ import { useAtom } from "jotai";
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 
-
 export default function Favourites() {
   const [favouritesList, setFavouritesList] = useAtom(favouritesAtom);
   if (!favouritesList) return null;
