@@ -10,6 +10,7 @@ export default function History() {
   const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
   let parsedHistory = [];
 
+  
   searchHistory.forEach((h) => {
     let params = new URLSearchParams(h);
     let entries = params.entries();
