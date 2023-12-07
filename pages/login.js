@@ -6,6 +6,7 @@ import { getFavourites, getHistory } from "../lib/userData";
 import { favouritesAtom, searchHistoryAtom } from "@/store";
 import { useAtom } from "jotai";
 
+
 export default function Login(props) {
   const [warning, setWarning] = useState("");
   const [user, setUser] = useState("");
