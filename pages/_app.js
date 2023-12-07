@@ -3,6 +3,7 @@ import RouteGuard from "@/components/RouteGuard";
 import "@/styles/bootstrap.min.css";
 import { SWRConfig } from "swr";
 
+
 export default function App({ Component, pageProps }) {
   return (
     <RouteGuard>
