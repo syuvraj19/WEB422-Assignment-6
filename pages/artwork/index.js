@@ -7,6 +7,7 @@ import ArtworkCard from "@/components/ArtworkCard";
 import validObjectIDList from "@/public/data/validObjectIDList.json";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
+
 export default function Artwork() {
   const PER_PAGE = 12;
   const [artworkList, setArtWorkList] = useState("");
